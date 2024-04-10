@@ -8,8 +8,9 @@
 #include<commons/config.h>
 #include<readline/readline.h>
 
-#include "utils.h"
+// En el archivo .h se agregan todos los include
 
+#include "utils.h"
 
 t_log* iniciar_logger(void);
 t_config* iniciar_config(void);
